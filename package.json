@@ -2,11 +2,11 @@
   "name": "practice1-3",
   "version": "1.0.0",
   "description": "simple cloud practice",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "start": "npx serve ."
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.0"
+    "express": "^4.18.2"
   }
 }
